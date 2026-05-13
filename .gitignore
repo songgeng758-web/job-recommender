@@ -1,0 +1,176 @@
+# ============================================================
+# Python / Django
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+develop-eggs/
+downloads/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+share/python-wheels/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django 特定
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+collected_static/
+
+# Django migrations 是否提交根据团队约定，本项目提交
+# */migrations/*.py
+# */migrations/__init__.py
+
+# 上传文件目录（如果有）
+uploads/
+
+# ============================================================
+# Node.js / Vue / Vite
+# ============================================================
+node_modules/
+.pnp
+.pnp.js
+
+# 打包产物
+dist/
+dist-ssr/
+*.local
+
+# Vite 缓存
+.vite/
+
+# npm / pnpm / yarn 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+# VS Code（保留团队共享的 settings.json / extensions.json，忽略个人配置）
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# JetBrains（PyCharm / WebStorm / IntelliJ）
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime / Vim / Emacs
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ============================================================
+# 操作系统
+# ============================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# ============================================================
+# 环境变量与密钥
+# ============================================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# 任何可能含密钥的文件
+*.pem
+*.key
+*.crt
+secrets.json
+config.local.py
+
+# ============================================================
+# 测试与覆盖率
+# ============================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ============================================================
+# 缓存
+# ============================================================
+.cache/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================================
+# 项目特定（不要提交的开发产物）
+# ============================================================
+# 临时数据文件
+*.bak
+*.tmp
+*.swp
+
+# 本地导出
+exports/
+backups/
+
+# Jupyter / 调试笔记本
+*.ipynb
+.ipynb_checkpoints/
+
+# 论文 / 文档构建产物（一般不进 Git）
+*.docx
+*.pptx
+*.pdf
+!docs/**/*.pdf
